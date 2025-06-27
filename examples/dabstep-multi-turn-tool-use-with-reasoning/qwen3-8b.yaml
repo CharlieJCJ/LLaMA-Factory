@@ -11,7 +11,7 @@ finetuning_type: full
 deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
-dataset: sonnet-3-7-112-traces-sharegpt
+dataset: eval-ds-dabstep-reasoning-30-fixed-reasoning-sharegpt
 template: qwen3
 cutoff_len: 16384
 max_samples: 1000
