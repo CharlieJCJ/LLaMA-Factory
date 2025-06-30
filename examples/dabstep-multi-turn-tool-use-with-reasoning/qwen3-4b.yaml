@@ -1,7 +1,7 @@
-run_name: qwen3-8b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
+run_name: qwen3-4b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
 
 ### model
-model_name_or_path: Qwen/Qwen3-8B
+model_name_or_path: Qwen/Qwen3-4B
 trust_remote_code: true
 
 ### method
