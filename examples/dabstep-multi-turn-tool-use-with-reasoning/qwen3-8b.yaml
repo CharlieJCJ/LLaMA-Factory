@@ -3,7 +3,6 @@ run_name: qwen3-8b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
 ### model
 model_name_or_path: Qwen/Qwen3-8B
 trust_remote_code: true
-export_hub_model_id: BespokeLabs/qwen3-8b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
 
 ### method
 stage: sft
@@ -41,7 +40,8 @@ bf16: true
 ddp_timeout: 180000000
 resume_from_checkpoint: null
 push_to_hub: true
-
+push_to_hub_model_id: qwen3-8b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
+push_to_hub_organization: bespokelabs
 ### eval
 # val_size: 0.1
 # per_device_eval_batch_size: 1
