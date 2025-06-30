@@ -3,7 +3,7 @@ run_name: qwen3-4b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
 ### model
 model_name_or_path: Qwen/Qwen3-4B
 trust_remote_code: true
-
+export_hub_model_id: BespokeLabs/qwen3-4b-dabstep-reasoning-30-fixed-reasoning-sharegpt-sft
 ### method
 stage: sft
 do_train: true
@@ -39,6 +39,7 @@ weight_decay: 0.1
 bf16: true
 ddp_timeout: 180000000
 resume_from_checkpoint: null
+push_to_hub: true
 
 ### eval
 # val_size: 0.1
