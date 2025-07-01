@@ -731,5 +731,22 @@
       "observation_tag": "tool",
       "function_tag": "tool_calls"
     }
+  },
+  "eval-ds-dabstep-reasoning-108-fixed-reasoning-sharegpt": {
+    "hf_hub_url": "bespokelabs/eval-ds-dabstep-reasoning-108-fixed-reasoning-sharegpt",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversation",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system",
+      "observation_tag": "tool",
+      "function_tag": "tool_calls"
+    }
   }
 }
